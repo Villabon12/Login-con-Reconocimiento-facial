@@ -108,7 +108,7 @@ def registro():
     contenedor_principal1 = Frame(pantalla1)
     contenedor_principal1.pack(pady=20)
   # Agregar la imagen encima de los botones
-    imagen1 = PhotoImage(file="logo.png")
+    imagen1 = PhotoImage(file="C:/Users/robin/OneDrive/Documentos/GitHub/Login-con-Reconocimiento-facial/logo.png")
     imagen1 = imagen1.subsample(4)  # Puedes ajustar el factor de submuestreo según tus necesidades
     etiqueta_imagen = Label(contenedor_principal1, image=imagen1)
     etiqueta_imagen.pack()
@@ -265,7 +265,7 @@ def login():
     contenedor_principal2 = Frame(pantalla2)
     contenedor_principal2.pack(pady=20)
   # Agregar la imagen encima de los botones
-    imagen2 = PhotoImage(file="logo.png")
+    imagen2 = PhotoImage(file="C:/Users/robin/OneDrive/Documentos/GitHub/Login-con-Reconocimiento-facial/logo.png")
     imagen2 = imagen2.subsample(4)  # Puedes ajustar el factor de submuestreo según tus necesidades
     etiqueta_imagen = Label(contenedor_principal2, image=imagen2)
     etiqueta_imagen.pack()
@@ -293,7 +293,7 @@ def pantalla_principal():
     contenedor_principal.pack(pady=20)
 
     # Agregar la imagen encima de los botones
-    imagen = PhotoImage(file="logo.png")
+    imagen = PhotoImage(file="C:/Users/robin/OneDrive/Documentos/GitHub/Login-con-Reconocimiento-facial/logo.png")
     imagen = imagen.subsample(4)  # Puedes ajustar el factor de submuestreo según tus necesidades
     etiqueta_imagen = Label(contenedor_principal, image=imagen)
     etiqueta_imagen.pack()
